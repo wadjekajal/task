@@ -1,0 +1,71 @@
+(1) How many resources do we have in IAM ?
+Ans:- 1. users
+      2. groups
+      3. roles
+      4. policies
+
+ (2) Deployment model in IAM ?
+Ans:- 1. On-Premises IAM
+      2. Cloud-based IAM
+      3. Hybrid IAM
+
+ (3) Identities in IAM ?
+Ans:- 1. users 
+      2. groups
+      3. roles
+
+ (4) What is an IAM uesr ?
+ Ans:- IAM users are granted specific permissions or access rights to resources based on policies 
+       defined in the IAM system. These permissions dictate what actions the user can perform on
+       various resources within the system.
+
+(5) What is the IAM group ?
+Ans:- It is the security feature that helps manage user access to resources and services in a system.
+
+(6) What is the IAM role ?
+Ans:- Is a set of permissions that define what actions can be performed on which resources.
+
+(7) What is the IAM policy ?
+Ans:- It is the set of permissions that denied on AWS resources. Policies are associated with
+      IAM users, groups, or roles and dictate their level of access within an AWS environment.
+
+(8) Where do we attach identify Based Policy ?
+Ans:- Which define permissions for IAM users, groups, or roles, can be attached at different levels 
+      within the AWS IAM hietarchy. 
+    1. IAM User
+    2. IAM Group
+    3. IAM Role
+    4. AWS Resource Policies
+
+(9) Where do we attach Resource Based Policy ?
+Ans:- We attach resource based policies directly to the resource itself such as S3 bucket
+      or an IAM role. It help define who can access and perform actions on that specific 
+      resource. 
+
+(10) Can we be able to create Policy via json code ?
+Ans:- yes
+
+(11) If one user has created it by defualt, which permission has been assigned to that user ?
+Ans:- 
+
+(12) What is dominatory policy ?
+Ans:- Dominatory policy refers to a policy or approach that is characterized by dominance or control.
+
+(13) What is ARN ? What are the fields in ARN ?
+Ans:- ARN stands for Amazon Resource Name. It is unique identifier assigned to resources in AWS.
+      *Fields In ARN:-
+       a) aws:- The partition which is usually "aws" for standard AWS service.
+
+       b) service:- The service namespace that identifies the AWS service.
+          e.g:- S3, EC2, IAM
+
+       c) region:- AWS region code where the resource is located.
+          e.g:- us-east-1, eu-west-2
+
+       d) account-id:- AWS account ID that owns the resource.
+
+       e) resource:- The specific identifier for the resource within the service
+          e.g:- instanceID, bucket name
+(14) How many types of ARN Partition ?
+Ans:- 
+    
