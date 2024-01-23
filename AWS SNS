@@ -1,5 +1,49 @@
-What is SNS ?
+(1) What is SNS ?
 Ans:- SNS can refer to several things depending on the context. It commonly stands for "simple notification service"
       a messaging service provided by amazon web service.
+
+(2)Why do we use SNS ?
+Ans:- SNS is used to send messages or notifications to distributed systems or microservices.
+      SNS is designed toscale easily making it suitable for applications with varying workloads.
+
+(3) What is an Amazon SNS function, and how we can configure it.
+Ans:- * Notification
+      * message distribution
+      * topic based 
+      * decoupling
+1 create topic
+2 subscribe endpoints
+3 set permissions
+4 public messages
+5 handle subscriptions
+6 manage subscriptions and topics
+
+(4) Difference between Amazon SNS and Amazon SQS ?
+ans:- * Sends messages a lots pf people at once.
+      * pushes messages out to subscribees.
+      * useful when multiple recipents need the same info instantly.
+Amazon SQS:-
+      * manages wait in a line to be processed.
+      * messages wait in aline to be processed.
+      * useful for background job processing task management or ensuring ordered messsage processing.
+
+(5) What are the different delivery formats and transport in AWS SNS ?
+Ans:- Delivery Formats:
+     * JSON
+     * Raw
+     * String
+  Trasport:-
+     * Amazon Simple Queue Service
+     * AWS Lambda
+     * HTTP/HTTPS
+     * Email/Email-JSON
+     * SMS
+     * Apllication
+     * Amazon Simple Notification
+
+(6) What is the difference between SNS FIFO & Standard while creating the SNS topic.
+Ans:- 
+On which services are configured with the AWS SNS ?
+What is 10DLC in AWS ?
 
 
