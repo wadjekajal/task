@@ -1,3 +1,71 @@
 (1) Difference between Block storage & Object Storage ?
 Ans:- Block Storage:- * Block storage takes any data like a file or database entry and divides it into block of equal sizes.
-      Object Storage:- * Object storage stores 
+      Object Storage:- * Object storage stores and manages all data in an unstructured format and in units called objects.
+
+(2) Difference between static website & dynamic website ?
+Ans:- static websites:-* appear the same for every user that access them and only change.
+      Dynamic Websites:-* dynamic websites can present different information to different visitors.
+
+(3) What are the naming rules ?
+Ans:- * must be unique
+      * lowercase letter
+      * hyphens
+(4) What is the major resource of S3 Bucket ?
+Ans:- Major resource in an s3 bucket is the object presenting the data you store in the bucket.
+
+(5) Why do we need to host static websites instead of dynamic websites ?
+Ans:- Static website are faster to create and publish thet are less complex and dont to be 
+      connected to databases of organized content.
+
+(6) What is versioning & Why do we need versioning ?
+Ans:- Versioning is a feature in many software systems including version.
+ Why do we need versioning:-
+ * backup and recovery
+ * see changes
+ * work together
+
+(7) What are the objects and types of objects that we are uploading into the S3 Bucket ?
+Ans:- Object is like digital file or a piece of data that you store in a service called Amazon s3.
+Types of object:- 
+* files and documents
+* compressed folders
+* backups
+* website stuff
+* logs
+* database safety
+* app data
+* machine learning 
+
+(8) Why is MFA Delete important in S3 Bucket object level ?
+Ans:- MFA delete can help prevent accidental bucket deletions by requiring the user who initiates the
+      delete action to prove physical possession of an MFA device with an MFA code and adding an extra layer of friction and 
+      security to the delete action.
+
+(9) What is S3 Multipart upload ?
+Ans:- Multipart upload is a way to upload large files in smaller parts for faster and more reliable transfers.
+
+(10) What are the storage classes in Amazon S3 ?
+Ans:- * standard 
+      * intelligent tiering
+      * standard - IA
+      * one zone -IA
+      * glacier 
+      * glacier deep archive
+      * outposts
+
+(11) What is the ACL ?
+Ans:- Access Control List is like a set rules that decides who can do what with your files or 
+      folders in a cloud storage service.
+
+(12) Why do we need ACL ?
+Ans:- * Security
+      * Privacy
+      * Compliance
+      * Data management
+
+(13) What is a Life cycle policy ? Why do we need to use the life cycle rule ?
+Ans:- 
+
+      
+       
+
