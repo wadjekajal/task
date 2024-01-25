@@ -64,7 +64,49 @@ Ans:- * Security
       * Data management
 
 (13) What is a Life cycle policy ? Why do we need to use the life cycle rule ?
+Ans:- A life cycle policy is a set of rules that define the actions to be taken on objects over time in a sysytem or process.
+
+* We need to decide when to keep, store, or throw away things.
+
+(14) How can we make our bucket public ?
+Ans:- * AWS S3 console
+      * select bucket
+      * permissions tab
+      * edit bucket policy
+
+(15) How can we give public access to our bucket ?
 Ans:- 
+
+(16) Aws pricing factor of the S3 Service.
+Ans:- *storage class
+      *storage usage
+      *data transfer
+      *requests
+      *data transfer acceleration
+      *monitoring and logging
+
+(17) How can we make our object public ?
+Ans:- *AWS S3 console
+      *navigate bucket
+      *locate object
+      *navigate permission tab
+      *edit object ACL
+      *set permission for everyone
+
+(18) How can we configure the static website logs in s3 ?
+Ans:-*AWS S3 console
+     *navigate to your bucket
+     *navigate properties tab
+     *enable server access logging
+     *specify target bucket for logs
+     *save changes
+
+(19) What is CORS ?
+Ans:-
+
+
+    
+
 
       
        
