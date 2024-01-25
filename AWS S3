@@ -110,8 +110,28 @@ Ans:- S3 inventory is like report card for Amazon S3 storage. it tells details a
       like how big they are.
 
 (21) What does it mean by Requester pays ?
-Ans:- 
-What is the secondary word to Transfer acceleration ?Why do we need to use this transfer acceleration ?
+Ans:- it means that if someone wants to access data from a specific storage on amazon they have tp pay for data transfer and requests
+      they make instead of the owner of the storage paying for it.
+
+(22) What is the secondary word to Transfer acceleration ?Why do we need to use this transfer acceleration ?
+Ans:-it like a fast lane for sending and receiving files on Amazon S3.
+    *It use make uploads and downloads quicker by using Amazons global network.
+
+AWS Cloud Trail:-
+
+(1) What is a cloud trail ?
+Ans:-it keeps a record of all the actions and changes that happens such as someone creating or deleting
+     resources.
+
+(2) Why do we use trails, what is the exact purpose of enabling the trail in cloud production accounts ?
+Ans:-*security monitoring
+     *compliance
+     *troubleshooting
+     *resource tracking
+     *forensic analysis
+
+(3) Explain how we can create a trail in aws cloud trail ?
+Ans:-
 
 
 
