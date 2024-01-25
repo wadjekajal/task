@@ -102,7 +102,17 @@ Ans:-*AWS S3 console
      *save changes
 
 (19) What is CORS ?
-Ans:-
+Ans:-CORS stands for Cross Origin Resourse Sharing it is set of rules that web browsers follow to decide if a 
+     website from one domain is allowed to make requests to another domain.
+
+(20) What is S3 Inventory ?
+Ans:- S3 inventory is like report card for Amazon S3 storage. it tells details about the files in your storage
+      like how big they are.
+
+(21) What does it mean by Requester pays ?
+Ans:- 
+What is the secondary word to Transfer acceleration ?Why do we need to use this transfer acceleration ?
+
 
 
     
