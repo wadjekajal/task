@@ -218,6 +218,11 @@ Ans:- Security group:- it decides who can come in and who can go out.
 NACL:- it decides who is allowed to enter or leave the entire ared not just on once.
 
 (25) What are NACL & Its types ?
+Ans:- Network Access Control List. its a set of rules that control traffic at the subnet level, 
+      determining who can come in and who can leave.
+Types:-
+
+
+(26) How many IP Addresses can we attach to the instances ?
 Ans:- 
-How many IP Addresses can we attach to the instances ?
 How many types of volume states do we have ?
