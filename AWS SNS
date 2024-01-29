@@ -47,3 +47,196 @@ On which services are configured with the AWS SNS ?
 What is 10DLC in AWS ?
 
 
+1) What is SNS ?
+Ans:-Simple  notification Service is like central messaging system on aws.
+SNS supports various ways of delivering messages, such as emails, text messages.
+
+(2) Why do we use SNS ?
+Ans:- We use SNS because its like a helpful messenger for our computer systems. This makes
+           our sysytems more flexible and able to handle a lot messages.
+
+(3) What is an Amazon SNS function, and how we can configure it.
+Ans:-Amazon SNS is like messaging hub.
+*Topics
+*Messages
+*Subscribes
+*Delivery Methods
+*filters
+
+(4) Difference between Amazon SNS & Amazon SQS.
+Ans:- Amazon SNS (Simple Notification Service):
+ Job: Sends quick, real-time messages or notifications.
+ Imagine: Broadcasting a message to a group chat.
+Amazon SQS (Simple Queue Service):
+ Job: Manages a queue of messages for orderly processing.
+ Imagine: Putting tasks in a to-do list and someone else takes tasks from the list.
+
+(5)What are the different delivery formats and transports in AWS SNS ?
+Ans:- * HTTP/HTTPS
+* Email/Email-JSON
+*Amazon SQS
+* AWS lambda
+*SMS
+*Application
+(6) What is the difference between SNS FIFO & Standard while creating the SNS topic.
+Ans:- SNS topic:- messages are quaranteed to arrive in the order they were sent.
+            SNS fifo:- messages might not arrive in exact order they were sent.
+
+(7) On which services are configured with the AWS SNS ?
+Ans:-*SQS
+*AWS lambda
+*Amazon S3
+*Amazon EC2
+*AWS cloudwatch
+*Amazon RDS
+
+(8) What is 10DLC in AWS ?
+Ans:-
+(9) What are FIFO topics on SNS ?
+Ans:-* message order
+* no duplicates
+* use cases
+* not for high throughput
+ 
+(9) What is SNS Mobile Push ?
+Ans:- SNS refers to the capability of SNS to send push notification to mobile devices.
+        this feature is commonly used by mobile app developers to keep users informed about    updates 
+
+(10) On which delivery method do we use and configure the subscription ?
+Ans:- When configuring subscription in amazon SNS choose the dekivery method based on how you want to receive the notifications.
+*HTTP/HTTPS endpoints
+*Email/Email-JSON endpoints
+*Amazon SQS
+*AWS lambda endpoints
+*mobile push endpoints
+*application endpoints
+
+AWS EC2
+(1) What is EC2, Why do we need EC2 service in cloud computing ?
+Ans:-EC2 is like a computer rental service in the cloud. We can use these virtual computers for various tasks like running websites, processig data.
+*flexibilty
+*cost efficiency
+*various jobs
+*easy scaling
+*global reach
+*no physical maintainance
+ 
+(2) Features of Amazon EC2 ?
+Ans:-*scalabilty
+*variety of instances
+*pricing models
+* customizable virtual machines
+* security groups and virtual private cloud
+* amazon machine images
+
+(3) What is Hypervisor ? and its types ?
+Ans:- A hypervisor also known as a virtual machine monitor. Its smart tool that helps your computer do multiple jobs at once.
+Types:-
+Type1:- is generally more secure and stable because it does not run on top of another O/S.
+Type2:- are easier to install configure and use than bare metal hypervisor.
+
+(4) Where we use hypervisor ?
+Ans:-* Computers centers
+* internet cloud services
+*school labs and online learning
+ 
+(5) Steps to create an EC2 instance?
+Ans:-* EC2 service
+*launch instance
+*choose AMI
+*choose instance type
+*configure instance
+*add storage
+*security group
+*review and launch
+*create key pair
+*launch instance
+*connect to instance 
+
+(6) EC2 Instance state ?
+Ans:-* pending
+*running
+*stopping
+*stopped
+*terminating
+*terminated
+
+(7) How many types of EC2 Instance-State codes ?
+Ans:-*pending(code:0)
+*running(code:16)
+*shutting down(code:32)
+*terminated(code:48)
+*stopping(code:64)
+*stopped(code:80)
+
+(8) What is the meaning of server hibernating mode ?
+Ans:- It is also known as Stopped state, its like turning off your computer but keeping all your files and settings.
+
+ (9) What is KMS ?
+Ans:-KMS stands for Key Management Service. KMS hepls you manage encryption keys which are like digital locks used to secure your data.
+
+(10) AWS Amazon EC2 Instance types ?
+Ans:-*general purpose instance
+*compute optimized instance
+*memory optimized
+*storage optimized instance
+*accelerated computing instance
+
+(11) How many types of status checks happen in aws ?
+Ans:-1: System Status Check: makes sure the computers hardware and network are in good shape.
+2: Instance Status Checks: makes sure your virtual computer software and connection to the internet are working.
+
+(12) When we see the global view option in ec2 service ?
+Ans:-
+(13) When we logged into the cloud account by default why do we always jump into the north virginia region, why it’s most popular ?
+Ans:-
+(14) What are EBS Volumes and its types ?
+Ans:-EBS volumes as virtual hard drives that you can attach to your virtual servers on Amazon cloud.
+Types:-
+* General purpose
+*provisional SSD
+*Throughout optimized
+*cold HDD
+* magnetic
+
+(15) Purpose of Using EBS volumes ?
+Ans:-*data persistance
+*scalable storage
+*high performance
+*snapshot backups
+*data encryption
+*attachment to multiple instance
+
+(16) How many types of purchasing options do we have in aws ec2 ?
+Ans:-* on –demand instance
+	* reserved instance
+	* spot instance
+	*dedicated hosts
+	*dedicated instances
+	
+(17) Difference between AWS AMI Image & AWS Template ?
+Ans;-AWS AMI:- its like taking a picture of your fully set up computer
+    AWS Template:- its like having a recipe a build a kitchen with all the appliance specifying how      things should be set up.
+(18) What is NIC & it’s types ?
+Ans:- NIC means Network Interface Card is hardware component that allows computers to connect to a network.
+*Types:- 
+*Ethernet NIC
+*Wireless NIC
+*Fiber NIC
+* Bluetooth NIC
+*Token Ring NIC
+*Modem NIC
+
+(19) What is elastic IP ? & WHY were we used ?
+Ans:- An Elastic IP address is a static Ipv4 address designed for dynamic cloud computing.
+*Consistent address
+*avoiding changes
+*easy for security
+
+(20) What is the snapshot of why we use it ?
+Ans:- Snapshot is like taking a picture of your computers data at a specific moment.We use snapshots in cloud services like AWS.
+*Backup And Recovery
+*Data protection
+*Cost Efficiency
+
+
