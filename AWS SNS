@@ -214,4 +214,10 @@ Ans:- is like helper for managing your data backups on AWS.
 *Cleaning up old backups
 
 (24) Difference between Security Group & NACL ?
+Ans:- Security group:- it decides who can come in and who can go out.
+NACL:- it decides who is allowed to enter or leave the entire ared not just on once.
+
+(25) What are NACL & Its types ?
 Ans:- 
+How many IP Addresses can we attach to the instances ?
+How many types of volume states do we have ?
